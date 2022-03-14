@@ -1,0 +1,37 @@
+
+// Bootstrap Main
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+  background-color: black !important;
+} 
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {  
+  font-size: 2rem !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #FF6600;
+    text-decoration: none;
+}
+
+#jumbobg {
+    background-image: asset-url('jumbohome.jpg');
+    background-size: cover;
+}  
+h1 {  
+  color: red;
+}
